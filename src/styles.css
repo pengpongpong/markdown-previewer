@@ -1,0 +1,99 @@
+.body {
+  background-color: lightblue;
+  width: 100vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerEditor {
+  width: 40%;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.editor {
+  white-space: pre-wrap;
+  /* border-top: 1px solid black; */
+}
+
+textarea {
+  width: 99.2%;
+  height: 100%;
+  resize: vertical;
+}
+
+.containerPreview {
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.previewer {
+  padding: 1rem 3rem;
+  background-color: lightgreen;
+  border-top: 1px solid black;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  width: 96.7%;
+  height: 10%;
+  padding: 5px 15px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+b {
+  text-transform: uppercase;
+}
+
+/* .previewer > .topbar {
+  width: 100%;
+  position: relative;
+} */
+
+.hide {
+  display: none;
+}
+
+.maximize {
+  min-height: 100vh;
+}
+
+code {
+  font-weight: bold;
+  background-color: white;
+}
+
+pre {
+  display: block;
+  background-color: white;
+  overflow: auto;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  border-width: 1px;
+  border-style: solid;
+}
+
+td {
+  border-width: 1px;
+  border-style: solid;
+}
+
+blockquote {
+  background-color: white;
+  /* width: 50%; */
+}
