@@ -1,2 +1,2 @@
 # markdown-previewer
-Created with CodeSandbox
+just a simple markdown previewer
