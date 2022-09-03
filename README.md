@@ -1,2 +1,2 @@
 # markdown-previewer
-just a simple markdown previewer
+Just a simple markdown previewer
